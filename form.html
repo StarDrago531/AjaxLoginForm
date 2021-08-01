@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ProGrad Junior's Login Form</h1>
+        <form name="google-sheet">
+            <div id="form_alert"></div>
+            <div>
+                <label for="username">Username:</label><br><br>
+                <input type="text" name="username" id="username" placeholder="Enter your Name" required><br><br><br>
+            </div>
+            <div>
+                <label for="email">Email:</label><br><br>
+                <input type="text" name="email" id="email" placeholder="Enter your Email ID" required><br><br><br>
+            </div>
+            <div>
+                <label for="email">Password:</label><br><br>
+                <input type="password" name="password" id="password" placeholder="Enter the Password" required><br><br>
+            </div>
+            <div>
+                <button type="submit">Register</button>&nbsp;&nbsp;&nbsp;
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js" integrity="sha512-nOQuvD9nKirvxDdvQ9OMqe2dgapbPB7vYAMrzJihw5m+aNcf0dX53m6YxM4LgA9u8e9eg9QX+/+mPu8kCNpV2A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./form.js"></script>
+</body>
+</html>
